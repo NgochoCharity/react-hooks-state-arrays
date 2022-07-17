@@ -18,6 +18,7 @@ function getNewRandomSpicyFood() {
   newSpicyFood.id = nextId;
   nextId++;
   return newSpicyFood;
+  
 }
 
 export { spicyFoods, getNewRandomSpicyFood };
